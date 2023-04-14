@@ -1,16 +1,3 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 input {
   border-radius: 5px;
 }
@@ -21,14 +8,17 @@ h5{
 input[type="submit"]{
   background-color: greenyellow;
   padding: 1px 20px 1px 20px;
+  margin-right: 1%;
 }
+
 button {
   background-color: red;
   color: white;
-  padding: 2px;
+  padding: 1px 20px 1px 20px;
   border-radius: 3px;
 }
 
-.main {
-  background-color: aqua;
+* {
+  background-color: aquamarine;
 }
+
