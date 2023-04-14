@@ -25,7 +25,7 @@ const App = () => {
           <div className="card-body">
             <h5 className="card-title">Todo Management Application</h5>
             <form onSubmit={submitHandler}>
-              <input size="30" type="text" name="task" value={task} onChange={changeHandler} required/> &nbsp;&nbsp;
+              <input size="30" type="text" name="task" value={task} onChange={changeHandler} required pattern= ".*[^ ].*" /> &nbsp;&nbsp;
               <input type="submit" value="Add" name="Add"/>
             </form>
             <TodoList todolist={todos} deleteHandler={deleteHandler}/>
